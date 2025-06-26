@@ -153,4 +153,3 @@ public/
 
 **Desenvolvido para o Grupo World Beauty (WB) - 2025**  
 Documentação criada para uso interno e treinamento de colaboradores.
-# T3
