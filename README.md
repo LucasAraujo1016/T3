@@ -27,10 +27,10 @@ O **Sistema WB** foi projetado para atender todas as franquias do Grupo World Be
 
 ## Tecnologias Utilizadas
 
-- **React 18+** (componentes de função e hooks)
-- **TypeScript**
-- **Tailwind CSS** (responsividade e design moderno)
-- **Heroicons** (ícones SVG)
+- **React 18.0.0** (componentes de função e hooks)
+- **TypeScript 4.6.3**
+- **Tailwind CSS 3.4.17** (responsividade e design moderno)
+- **Heroicons 2.2.0** (ícones SVG)
 - **Jest + Testing Library** (testes unitários)
 
 > **Observação:** O projeto foi migrado do MaterializeCSS para Tailwind CSS para garantir maior flexibilidade e modernidade no design.
@@ -42,9 +42,10 @@ O **Sistema WB** foi projetado para atender todas as franquias do Grupo World Be
 ### 1. Pré-requisitos
 
 Certifique-se de ter instalado em sua máquina:
-- **Node.js**: versão **16.20.2** ou superior (recomendado 16.x)  
+
+- **Node.js**: versão **16.20.2**  
   [Download Node.js](https://nodejs.org/)
-- **npm** (vem junto com o Node.js)
+- **npm**: versão **9.6.7** (vem junto com o Node.js 16.20.2)
 
 ### 2. Instale as dependências do projeto
 
@@ -52,7 +53,6 @@ Abra o terminal na pasta do projeto e execute:
 
 ```bash
 npm install
-
 ```
 
 ### 3. Execute o projeto em modo de desenvolvimento
@@ -61,7 +61,6 @@ No terminal, execute:
 
 ```bash
 npm start
-
 ```
 
 Aguarde até aparecer a mensagem informando o endereço local.
@@ -74,27 +73,32 @@ Abra o navegador e acesse: [http://localhost:3000](http://localhost:3000)
 
 ## Versões de Softwares e Bibliotecas
 
-As principais versões utilizadas neste projeto são:
+As versões exatas utilizadas neste projeto são:
 
 **Softwares necessários:**
-- **Node.js:** 16.20.2 ou superior (recomendado 16.x)
-- **npm**
+- **Node.js:** 16.20.2
+- **npm:** 9.6.7
 
 **Principais bibliotecas:**
-- **React:** ^18.0.0
-- **TypeScript:** ^4.6.3
-- **Tailwind CSS:** ^3.4.17
-- **@heroicons/react:** ^2.2.0
-- **react-scripts:** ^5.0.1
-- **autoprefixer:** ^10.4.21
-- **postcss:** ^8.5.6
+- **react:** 18.0.0
+- **react-dom:** 18.0.0
+- **typescript:** 4.6.3
+- **tailwindcss:** 3.4.17
+- **@heroicons/react:** 2.2.0
+- **react-scripts:** 5.0.1
+- **autoprefixer:** 10.4.21
+- **postcss:** 8.5.6
 
 **Outras dependências relevantes:**
-- **@testing-library/jest-dom:** ^5.16.3
-- **@testing-library/react:** ^12.1.4
-- **@testing-library/user-event:** ^13.5.0
-- **react-icons:** ^5.5.0
-- **web-vitals:** ^2.1.4
+- **@testing-library/jest-dom:** 5.16.3
+- **@testing-library/react:** 12.1.4
+- **@testing-library/user-event:** 13.5.0
+- **@types/jest:** 27.4.1
+- **@types/node:** 16.11.26
+- **@types/react:** 17.0.43
+- **@types/react-dom:** 17.0.14
+- **react-icons:** 5.5.0
+- **web-vitals:** 2.1.4
 
 > As versões completas das dependências estão no arquivo [`package.json`](package.json).
 
